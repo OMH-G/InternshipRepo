@@ -48,8 +48,14 @@ DATABASES = {
 `e.g GET http://127.0.0.1:8000/list-pizza-{value}={subnameofvalue} = will list pizza with specific subnameofvalue`
 
 
+## Installation of module
 
-  
+Install all the present in requirements.txt
+
+```bash 
+  pip install -r requirements.txt
+```
+    
 ## API Reference
 
 #### Create pizza with all details 
@@ -110,14 +116,6 @@ when id is replaced by 0 then it will display all the pizza list otherwise it wi
 
 
   
-## Installation of module
-
-Install all the present in requirements.txt
-
-```bash 
-  pip install -r requirements.txt
-```
-    
 ## Authors
 
 - [@omkarhalgi](https://github.com/OMH-G/CodeLength)
