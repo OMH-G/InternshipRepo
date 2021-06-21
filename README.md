@@ -11,6 +11,17 @@ Using CRUD operation on API
 This API uses some endpoint and there are some request which I will be describing here.
 
 
+```
+Some Basic Configuration in django settings .
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'djongo',
+        'NAME': 'pizzadatabase',
+    }
+}
+```
+
 `Database used here is mongodb database name is pizzadatabase`
 
 | Description                       |
